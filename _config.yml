@@ -1,0 +1,33 @@
+# Site settings
+title: civic studio
+email: civicstudio@gvsu.edu
+description: practicing and presenting art in public contexts.
+url: 
+baseurl: "/civictest"
+twitter_username: twitter_username
+github_username:  github_username
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+plugins:
+- jekyll-paginate
+
+# Ideal image slider
+iis_slider_array: []
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
+
